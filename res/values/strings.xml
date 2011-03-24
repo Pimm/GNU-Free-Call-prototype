@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">GNU Free Call</string>
+    <string name="you_label">You</string>
+    <string name="fellow_gnus_label">Fellow GNUs</string>
+    <string name="discover_herd_label">Discover Herd</string>
+</resources>

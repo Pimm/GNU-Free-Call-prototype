@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO: Make this layout work in landscape mode/on other phone sizes. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<!-- The drawing of the GNU and the slogan.  -->
+	<ImageView android:src="@drawable/main_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="48px" android:paddingBottom="28px" android:paddingLeft="0px" android:paddingRight="0px" />
+	<!-- The button that navigates to the "you" activity. -->
+	<Button android:id="@+id/you" android:text="@string/you_label" android:drawableRight="@drawable/you_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="left|center_vertical" android:paddingLeft="42px" />
+	<!-- The button that navigates to the "fellow GNUs" activity. -->
+	<Button android:id="@+id/fellow_gnus" android:text="@string/fellow_gnus_label" android:drawableRight="@drawable/fellow_gnus_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="left|center_vertical" android:paddingLeft="42px" />
+	<!-- The button that navigates to the "discover herd" activity. -->
+	<Button android:id="@+id/discover_herd" android:text="@string/discover_herd_label" android:drawableRight="@drawable/discover_herd_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="left|center_vertical" android:paddingLeft="42px" />
+</LinearLayout>
