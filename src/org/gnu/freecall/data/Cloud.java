@@ -12,9 +12,10 @@ public class Cloud {
 	public final String label;
 	/**
 	 * The values of this cloud. This is an array, as Pimm thinks this way the filter operation is faster. This should be
-	 * measured, though (TODO). Can be null if there are no values yet.
+	 * measured, though (TODO). Can be null if there are no values yet. This is not a private property with a getter, for
+	 * speed reasons.
 	 */
-	private String[] values;
+	public String[] values;
 	public Cloud(String label) {
 		this.label = label;
 	}

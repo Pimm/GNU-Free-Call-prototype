@@ -9,5 +9,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".you.YouActivity" android:label="@string/you_label" />
+        <activity android:name=".fellowgnus.FellowGNUsActivity" android:label="@string/fellow_gnus_label" />
+        <activity android:name=".discoverherd.DiscoverHerdActivity" android:label="@string/discover_herd_label" />
     </application>
 </manifest>

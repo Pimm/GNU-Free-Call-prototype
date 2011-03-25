@@ -1,6 +1,8 @@
 package org.gnu.freecall.main;
 
 import org.gnu.freecall.R;
+import org.gnu.freecall.discoverherd.DiscoverHerdActivity;
+import org.gnu.freecall.fellowgnus.FellowGNUsActivity;
 import org.gnu.freecall.you.YouActivity;
 
 import android.app.Activity;
@@ -23,6 +25,18 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View button) {
 				startActivity(new Intent(MainActivity.this, YouActivity.class));
+			}
+		});
+        ((Button) findViewById(R.id.fellow_gnus)).setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View button) {
+				startActivity(new Intent(MainActivity.this, FellowGNUsActivity.class));
+			}
+		});
+        ((Button) findViewById(R.id.discover_herd)).setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View button) {
+				startActivity(new Intent(MainActivity.this, DiscoverHerdActivity.class));
 			}
 		});
     }

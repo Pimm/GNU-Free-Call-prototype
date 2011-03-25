@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
-	<TextView android:id="@+id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="12dip" android:minHeight="?android:attr/listPreferredItemHeight" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingLeft="12dip" android:minHeight="?android:attr/listPreferredItemHeight" />
+		<!--org.gnu.freecall.view.PrivacySlider android:id="@+id/privacy_slider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_vertical" android:paddingRight="12dip" /-->
+	</LinearLayout>
 </LinearLayout>
